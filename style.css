@@ -25,7 +25,7 @@ a {
 }
 
 button:focus, a:focus, input:focus, select:focus {
-  outline: 3px solid 1b5e20;
+  outline: 3px solid #1b5e20;
   outline-offset: 2px;
 }
   .navbar {
@@ -147,7 +147,7 @@ body.nav-hidden .navbar {
 
 .btn {
   padding: 12px 30px;
-  background: 1b5e20;
+  background: #1b5e20;
   color: white;
   border-radius: 5px;
   font-weight: bold;
@@ -433,7 +433,7 @@ footer {
 }
 
 footer a {
-  color: 1b5e20;
+  color: #1b5e20;
   text-decoration: none;
 }
 
@@ -1312,7 +1312,7 @@ a {
 }
 
 button:focus, a:focus, input:focus, select:focus {
-    outline: 3px solid 1b5e20;
+    outline: 3px solid #1b5e20;
     outline-offset: 2px;
 }
 
@@ -1343,7 +1343,7 @@ button:focus, a:focus, input:focus, select:focus {
 
 .btn {
     padding: 12px 30px;
-    background: 1b5e20;
+    background: #1b5e20;
     color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -1555,7 +1555,7 @@ footer {
 }
 
 footer a {
-    color: 1b5e20;
+    color: #1b5e20;
     text-decoration: none;
 }
 
@@ -1617,7 +1617,7 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 3px solid 1b5e20;
+  outline: 3px solid #1b5e20;
   outline-offset: 2px;
 }
 
@@ -1662,6 +1662,39 @@ select:focus-visible {
 }
 
 .modal-content:focus {
-  outline: 2px solid 1b5e20;
+  outline: 2px solid #1b5e20;
   outline-offset: 2px;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 60vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 40vh; 
+    padding: 1.5rem 1rem;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
 }
